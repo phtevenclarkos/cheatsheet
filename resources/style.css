@@ -8,11 +8,38 @@ body{
     color: #004953;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 200px
+}
+
+.banner{
+    background-color: #004953;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.banner ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.banner ul a:hover{
+    opacity: 0.5;
+}
+
+.banner ul a{
+    color: seashell;
+    font-size: 1.5em;
+    text-decoration: none;
 }
 
 h1{
-    background-color: #004953;
     color: seashell;
+    padding: 15px;
+    font-size: 3em;
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
 }
 
 th{
@@ -28,15 +55,40 @@ td, th{
     padding: 10px;
 }
 
+table{
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 tr:nth-child(even) td{
     background-color: lightgray;
 }
 
 tr:nth-child(odd) td{
-    background-color: #white;
+    background-color: white;
 }
 
 tr:hover td{
     background-color: yellow;
 }
 
+h2{
+    padding-top: 25px;
+}
+
+.text-box{
+    border: 3px solid #004953;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    line-height: 2em;
+    background-color: white;
+    list-style: none;
+}
+
+.text-box a{
+    text-decoration: none;
+    color: #004953;
+}
