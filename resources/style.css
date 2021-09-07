@@ -59,6 +59,7 @@ table{
     border-spacing: 0;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 tr:nth-child(even) td{
@@ -70,7 +71,8 @@ tr:nth-child(odd) td{
 }
 
 tr:hover td{
-    background-color: yellow;
+    background-color: darkslategrey;
+    color: white;
 }
 
 h2{
@@ -86,9 +88,34 @@ h2{
     line-height: 2em;
     background-color: white;
     list-style: none;
+    max-width: 725px
 }
 
 .text-box a{
     text-decoration: none;
     color: #004953;
+}
+
+.resource-section{
+    border: 3px solid #004953;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: white;
+    max-width: 725px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resource-box{
+    
+}
+
+.resource-box img{
+    height: 150px;
+}
+
+.resource-box img:hover{
+    opacity: 0.5;
 }
