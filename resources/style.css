@@ -8,7 +8,6 @@ body{
     color: #004953;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 200px
 }
 
 .banner{
@@ -19,7 +18,7 @@ body{
 .banner ul{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 100px;
 }
 
 .banner ul a:hover{
@@ -34,7 +33,7 @@ body{
 
 h1{
     color: seashell;
-    padding: 15px;
+    
     font-size: 3em;
 }
 
@@ -101,6 +100,7 @@ h2{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     padding: 10px;
     background-color: white;
     max-width: 725px;
@@ -108,9 +108,6 @@ h2{
     justify-content: space-between;
 }
 
-.resource-box{
-    
-}
 
 .resource-box img{
     height: 150px;
@@ -118,4 +115,15 @@ h2{
 
 .resource-box img:hover{
     opacity: 0.5;
+}
+
+footer{
+    background-color: #004953;
+}
+
+footer a{
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    color: seashell;
 }
